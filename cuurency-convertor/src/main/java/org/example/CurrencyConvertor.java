@@ -11,7 +11,7 @@ public class CurrencyConvertor {
 
 
     public BigDecimal convert(ConversionRequest request) {
-        currencyValidator.validate(request.getFrom());
+        currencyValidator.validate(request.getFrom());return null;
     }
 
 }
